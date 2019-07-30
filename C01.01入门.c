@@ -10,7 +10,7 @@ Xiaorans-MacBook-Air:cc xiaoranma$ ./a.out
   分别打印华氏温度与摄氏温度对照表*/
 int main()
 {
-  int fahr, celsius;
+	int fahr, celsius;
 	int lower, upper, step;
 
 	lower = 0;  /*温度下限*/
@@ -22,7 +22,7 @@ int main()
 		celsius = 5 * (fahr-32) / 9;
 		printf("%d\t%d\n",fahr, celsius);
 		fahr = fahr + step;
-	}
+}
 
 }
 
